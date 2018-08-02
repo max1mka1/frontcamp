@@ -1,0 +1,19 @@
+
+# Global attribute
+* text = auto
+
+# Force text attribute
+*.html text
+*.js text
+*.css text
+
+# Windows files
+*.sln text eol = crlf
+*.bat eol = crlf
+
+# Unix files
+*.sh eol = lf
+
+# Binary files
+*.jpg -text
+*.gif -text

@@ -1,0 +1,9 @@
+$ cat .gitignore
+*.[oa]
+*~
+
+# Ignore any file named inside vscode folder
+/.vscode/**
+
+# Except extensions.json
+!/.vscode/extensions.json
